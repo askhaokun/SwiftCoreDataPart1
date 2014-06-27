@@ -11,6 +11,9 @@
 		558102D11959EE0700EE6755 /* TableViewTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 558102CF1959EE0700EE6755 /* TableViewTest.xcdatamodeld */; };
 		558102D31959EE0700EE6755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558102D21959EE0700EE6755 /* Images.xcassets */; };
 		558102DF1959EE0800EE6755 /* TableViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558102DE1959EE0800EE6755 /* TableViewTestTests.swift */; };
+		558102E91959EE4400EE6755 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558102E81959EE4400EE6755 /* MainStoryboard.storyboard */; };
+		55E873101959F37F00734ED2 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E8730F1959F37F00734ED2 /* MainVC.swift */; };
+		55E873121959F3D500734ED2 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E873111959F3D500734ED2 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,9 @@
 		558102D81959EE0800EE6755 /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558102DD1959EE0800EE6755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558102DE1959EE0800EE6755 /* TableViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTestTests.swift; sourceTree = "<group>"; };
+		558102E81959EE4400EE6755 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		55E8730F1959F37F00734ED2 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		55E873111959F3D500734ED2 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,10 @@
 		558102CA1959EE0700EE6755 /* TableViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				558102E81959EE4400EE6755 /* MainStoryboard.storyboard */,
 				558102CD1959EE0700EE6755 /* AppDelegate.swift */,
+				55E8730F1959F37F00734ED2 /* MainVC.swift */,
+				55E873111959F3D500734ED2 /* DetailVC.swift */,
 				558102D21959EE0700EE6755 /* Images.xcassets */,
 				558102CF1959EE0700EE6755 /* TableViewTest.xcdatamodeld */,
 				558102CB1959EE0700EE6755 /* Supporting Files */,
@@ -185,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558102E91959EE4400EE6755 /* MainStoryboard.storyboard in Resources */,
 				558102D31959EE0700EE6755 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				558102CE1959EE0700EE6755 /* AppDelegate.swift in Sources */,
+				55E873121959F3D500734ED2 /* DetailVC.swift in Sources */,
+				55E873101959F37F00734ED2 /* MainVC.swift in Sources */,
 				558102D11959EE0700EE6755 /* TableViewTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +393,7 @@
 				558102E41959EE0800EE6755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		558102E51959EE0800EE6755 /* Build configuration list for PBXNativeTarget "TableViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -389,6 +402,7 @@
 				558102E71959EE0800EE6755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
