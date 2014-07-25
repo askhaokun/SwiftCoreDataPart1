@@ -9,4 +9,4 @@ This is the first of 3 tutorials explaining how to use CoreData in a Swift proje
 
 Check out part 2 here: <a href="http://youtu.be/dJmiTzj3qmk" target="_blank">Swift App Tutorial with Core Data - Part 2</a>
 
-Check out part 3 here: <a href="" target="_blank">Swift App Tutorial with Core Data - Part 3</a>
+Check out part 3 here: <a href="http://youtu.be/oIh0V2lhRLI" target="_blank">Swift App Tutorial with Core Data - Part 3</a>
