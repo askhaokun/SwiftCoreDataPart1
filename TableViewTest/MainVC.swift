@@ -13,7 +13,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     //This is your tableView
     @IBOutlet var table: UITableView!
     
-    var items: String[] = ["Brazil", "USA", "Argentina", "Germany"]
+    var items: [String] = ["Brazil", "USA", "Argentina", "Germany"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
